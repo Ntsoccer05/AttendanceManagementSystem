@@ -1,0 +1,14 @@
+.icon-del::-webkit-calendar-picker-indicator
+{
+	display: none;
+}
+
+body
+{
+	position: relative;
+}
+
+.sticky-top
+{
+	top: 56px!important;
+}

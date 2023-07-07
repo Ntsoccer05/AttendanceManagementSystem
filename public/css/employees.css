@@ -1,0 +1,57 @@
+/* 社員管理フォーム */
+
+.search-column{
+    width: 300px;
+}
+
+.employees-add{
+    background-color: rgb(1, 180, 1);
+}
+.fa-check{
+    color: rgb(1, 180, 1);
+    font-size: 1.5em;
+}
+
+.table-bordered thead th{
+	background-color: #cff4fc!important;
+	border-color: #badce3!important;
+}
+
+/* .pagination{
+    justify-content: flex-end;
+} */
+
+#limit{
+    height: 23px;
+}
+
+.leaving-width,
+.date-width{
+    width: 51%;
+}
+
+.search-box{
+    display: flex;
+}
+
+.datepicker-days th.dow:first-child,
+.datepicker-days td:first-child {
+    color: #f00;
+}
+.datepicker-days th.dow:last-child,
+.datepicker-days td:last-child {
+    color: #00f;
+}
+
+td, th {
+    vertical-align: middle !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+    cursor: pointer;
+}
+
+th a{
+    text-decoration: none;
+    color: black;
+}

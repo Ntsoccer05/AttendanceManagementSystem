@@ -1,0 +1,23 @@
+/* department management forms css */
+.flex{
+	display: flex;
+}
+.right{
+	margin-left: auto;
+}
+
+.datepicker-days th.dow:first-child,
+.datepicker-days td:first-child {
+    color: #f00;
+}
+.datepicker-days th.dow:last-child,
+.datepicker-days td:last-child {
+    color: #00f;
+}
+
+.btn-outline-default
+{
+	background: none;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	color: black;
+}

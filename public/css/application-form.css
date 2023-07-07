@@ -1,0 +1,50 @@
+/* 申請フォーム */
+
+.date-group{
+    display: flex;
+    flex-wrap: nowrap!important;
+}
+
+.badge{
+    background-color: red;
+}
+
+.datetime{
+    flex-wrap: nowrap;
+}
+
+.date-width{
+    width: 51%;
+}
+
+.endTimeError,
+.startTimeError{
+    position: absolute;
+    top: 110%;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.datepicker-days th.dow:first-child,
+.datepicker-days td:first-child {
+    color: #f00;
+}
+.datepicker-days th.dow:last-child,
+.datepicker-days td:last-child {
+    color: #00f;
+}
+
+@media screen and (max-width:768px) {
+    .datetime{
+        flex-wrap: wrap
+    }
+    .startTimeError{
+        word-wrap: inherit;
+    }
+    .endTimeError{
+        white-space: normal;
+    }
+    .date-width{
+        width: 100%;
+    }
+}
